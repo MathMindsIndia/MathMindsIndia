@@ -1,74 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MathMindsIndia</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MathMindsIndia - Online Math Tutoring</title>
 	<style>
 		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-			color: #333;
 			margin: 0;
 			padding: 0;
+			font-family: Arial, sans-serif;
 		}
+
 		header {
-			background-color: #2b2d42;
+			background-color: #1c1c1c;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		p {
+			font-size: 24px;
+			margin: 0;
+			padding: 20px;
+			background-color: #0080ff;
+			color: #fff;
+			text-align: center;
+		}
+
+		button {
+			background-color: #0080ff;
 			color: #fff;
 			padding: 10px 20px;
-			text-align: center;
-			font-size: 1.5em;
+			border: none;
+			border-radius: 5px;
+			font-size: 20px;
+			margin: 20px;
+			cursor: pointer;
 		}
-		nav {
-			background-color: #0f4c81;
+
+		button:hover {
+			background-color: #1c1c1c;
 			color: #fff;
-			padding: 10px;
-			text-align: center;
 		}
-		nav a {
-			color: #fff;
-			text-decoration: none;
-			padding: 5px;
-			margin: 0 10px;
-			font-size: 1.2em;
-			font-weight: bold;
-			transition: color 0.3s;
-		}
-		nav a:hover {
-			color: #0f4c81;
-			background-color: #fff;
-			border-radius: 3px;
-			transition: background-color 0.3s;
-		}
-		main {
+
+		.container {
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
+			text-align: center;
 		}
-		h1 {
-			font-size: 2.5em;
-			margin-top: 0;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
 		}
-		p {
-			line-height: 1.5;
-			font-size: 1.2em;
+
+		li {
+			font-size: 20px;
+			padding: 10px;
 		}
+
+		.price {
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+		.signup {
+			font-size: 20px;
+			color: #0080ff;
+			text-decoration: none;
+		}
+
+		.signup:hover {
+			color: #1c1c1c;
+		}
+
+		.login {
+			font-size: 20px;
+			color: #1c1c1c;
+			text-decoration: none;
+		}
+
+		.login:hover {
+			color: #0080ff;
+		}
+
 	</style>
 </head>
 <body>
 	<header>
-		MathMindsIndia
+		<h1>MathMindsIndia - Online Math Tutoring</h1>
 	</header>
-	<nav>
-		<a href="#">Home</a>
-		<a href="#">Tutors</a>
-		<a href="#">Subjects</a>
-		<a href="#">Pricing</a>
-		<a href="#">Contact</a>
-	</nav>
-	<main>
-		<h1>Welcome to MathMindsIndia</h1>
-		<p>We provide online tutoring services for math subjects. Our experienced tutors can help you improve your math skills and achieve better grades. Sign up now to get started!</p>
-	</main>
+	<p>Get high-quality math tutoring from expert tutors at affordable prices!</p>
+	<div class="container">
+		<h2>Our Pricing</h2>
+		<ul>
+			<li>Single session - <span class="price">&#8377;100</span></li>
+			<li>5-session package - <span class="price">&#8377;450</span></li>
+			<li>10-session package - <span class="price">&#8377;800</span></li>
+		</ul>
+		<a href="#" class="signup">Sign Up Now</a> or <a href="#" class="login">Log In</a>
+	</div>
 </body>
 </html>
